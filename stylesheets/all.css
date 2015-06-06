@@ -1,0 +1,292 @@
+@charset "utf-8";
+
+div.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+body {
+	margin-top: -7.5vh;
+}
+
+div.mast {
+	padding-left: 10%;
+}
+
+h1.logo {
+	color: white;
+	font-size: 70px;
+	padding-top: 40vh;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+h1.logo-sub {
+	color: white;
+	font-size: 35px;
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+div.social-logos {
+	color: white;
+	font-size: 30px;
+}
+
+a.social {
+	text-decoration: none;
+	color: white;
+}
+
+div.facebook {
+	display: inline;
+	width: 10px;
+	height: 10px;
+	background-color: #3B5998;
+	margin-right: 10px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	border-radius: 15%;
+}
+
+i.fa-facebook {
+	margin-left: 10px;
+}
+
+div.twitter {
+	display: inline;
+	width: 10px;
+	height: 10px;
+	background-color: #55ACEE;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	border-radius: 15%;
+}
+
+i.fa-twitter {
+	margin-right: 4px;
+	margin-left: 4px;
+}
+
+div.contact-us-link {
+	display: inline;
+	margin-top: -10px;
+	margin-left: 10px;
+    height: 55px;
+    width: 60px;
+    background-color: gray;
+    border-radius:10px;
+    position: absolute;
+}
+
+div.color1 {
+    width: 20px;
+    height: inherit;
+    background-color: #ff6633;
+    position: absolute;
+    z-index: 5;
+    border-radius: 10px 0px 0px 10px;
+}
+
+div.color2 {
+    width: 40px;
+    height: inherit;
+    background-color: #009999;
+    position: absolute;
+    z-index: 4;
+    border-radius: 10px 0px 0px 10px;
+}
+
+div.color3 {
+    width: 60px;
+    height: inherit;
+    background-color: #3366cc;
+    position: absolute;
+    z-index: 3;
+    border-radius: 10px 10px 10px 10px;
+}
+
+div.words {
+    color: white;
+    position: absolute;
+    z-index: 10;
+    background-color: rgb(255, 0, 255, 10%);
+}
+
+div.words i {
+    text-align: center;
+    font-size: 30px;
+    padding: 10px 10px 10px 15px;
+}
+
+
+div.cover {
+	padding: 0px, 0px, 0px, 0px;
+	margin: 0px, 0px, 0px, 0px; 
+	width: 100%;
+	height: 100vh;
+	background: url(/images/salad.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+div.header-container {
+	width: 100%;
+	margin-top: 22vh;
+	text-align: center;
+}
+
+i.arrow-button {
+	color: white;
+	font-size: 10vh;	
+}
+
+div.container {
+	width: 100%;
+	margin: auto;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+div.about-us {
+	width: 100%;
+	height: 80vh;
+}
+
+div.about-us div.text {
+	width: 50%;
+	height: inherit;
+	display: inline-block;
+	float: left;
+	background-color: #009999;
+	color: white;
+}
+
+div.about-us div.text h2{
+	margin-top: 15vh;
+	padding-left: 45px;
+}
+
+div.about-us div.text p {
+	padding-left: 45px;
+	padding-right: 45px;
+}
+
+div.about-us div.image {
+	width: 50%;
+	height: inherit;
+	background: url(/images/burrito.jpg);
+	background-size: cover; 
+	display: inline;
+	float: right;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+div.about-us div.text2 {
+	width: 50%;
+	height: inherit;
+	display: inline-block;
+	float: right;
+	background-color: #ff6633;
+	color: white;
+}
+
+div.about-us div.text2 h2{
+	margin-top: 15vh;
+	padding-left: 45px;
+}
+
+div.about-us div.text2 p {
+	padding-left: 45px;
+	padding-right: 45px;
+}
+
+div.about-us div.image2 {
+	width: 50%;
+	height: inherit;
+	background: url(/images/chef-cooking.jpg);
+	background-size: cover; 
+	display: inline;
+	float: left;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+input {
+	margin-left: 45px;
+	margin-bottom: 20px;
+	border: none;
+	border-radius: 5px;
+	height: 30px;
+	width: 80%;
+	padding-left: 10px;
+}
+
+textarea {
+	margin-left: 45px;
+	margin-bottom: 20px;
+	border: none;
+	border-radius: 5px;
+	height: 90px;
+	width: 80%;
+	padding-left: 10px;
+}
+
+input.submit-button {
+	color: white;
+	background-color: #3366CC;
+	margin-left: 50px;
+	height: 40px;
+}
+
+div.footer {
+	width: 100%;
+	background-color: #3366CC;
+	color: white;
+	height: 20vh;
+}
+
+p.right {
+	float: right;
+	padding-top: 20px;
+	padding-right: 30px; 
+}
+
+p.left {
+	float: left;
+	padding-top: 40px;
+	padding-left: 30px;
+}
+
+p.social-footer {
+	position: absolute;
+	right: 30px;
+	padding-top: 50px;
+}
+
+a.social-footer {
+	text-decoration: none;
+	color: white;
+	padding: 10px 10px 10px;
+}
+
+a.social-footer.facebook {
+	background-color: #3B5998;
+	padding-left: 10px;
+	border-radius: 5px;
+}
+
+a.social-footer.twitter {
+	background-color: #55ACEE;
+	margin-left: 5px;
+	padding-left: 10px; 
+	border-radius: 5px;
+}
+
