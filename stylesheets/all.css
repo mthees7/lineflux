@@ -129,7 +129,7 @@ div.cover {
 	margin: 0px, 0px, 0px, 0px; 
 	width: 100%;
 	height: 100vh;
-	background: url(/lineflux/images/salad.jpg) no-repeat center center fixed; 
+	background: url(/images/salad.jpg) no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -181,7 +181,7 @@ div.about-us div.text p {
 div.about-us div.image {
 	width: 50%;
 	height: inherit;
-	background: url(/lineflux/images/burrito.jpg);
+	background: url(/images/burrito.jpg);
 	background-size: cover; 
 	display: inline;
 	float: right;
@@ -198,7 +198,7 @@ div.about-us div.text2 {
 	color: white;
 }
 
-div.about-us div.text2 h2{
+div.about-us div.text2 h2, .info h2{
 	margin-top: 15vh;
 	padding-left: 45px;
 }
@@ -211,7 +211,7 @@ div.about-us div.text2 p {
 div.about-us div.image2 {
 	width: 50%;
 	height: inherit;
-	background: url(/lineflux/images/chef-cooking.jpg);
+	background: url(/images/chef-cooking.jpg);
 	background-size: cover; 
 	display: inline;
 	float: left;
