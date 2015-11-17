@@ -105,7 +105,12 @@
 					<input type="text" placeholder="Name" name="name"> <br>
 					<input type="text" placeholder="Email" name="email"> <br>
 					<textarea type="text" placeholder="Type your message here.." name="message"></textarea>
-					<input class="submit-button" type="submit" value="submit">
+					<input class="submit-button" type="submit" value="submit" onclick="myFunction()">
+						<script>
+							function myFunction() {
+							    alert("Hello! This form currently does not submit anywhere.");
+							}
+						</script>
 				</form>
 			</div>
 		</div>
