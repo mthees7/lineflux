@@ -12871,7 +12871,7 @@ $( document ).ready(function() {
 });
 
 $(".arrow").on('click', function() {
-	$('html, body').animate({scrollTop:$(window).height() + 1}, 1000);
+	$('html, body').animate({scrollTop:$(window).height() + 5}, 1000);
 });
 
 
