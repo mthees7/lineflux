@@ -58,7 +58,12 @@
 						<i class="fa fa-twitter"></i>	
 					</div>
 				</a>
-				<div class="contact-us-link">
+				<div class="contact-us-link" onclick="myEmailFunction()">
+						<script>
+							function myEmailFunction() {
+							    alert("Hello! This mailto is currently not set up because the site is not yet live.");
+							}
+						</script>
 				    <div class="color1"></div>
 				    <div class="color2"></div>
 				    <div class="color3"></div>
@@ -105,9 +110,9 @@
 					<input type="text" placeholder="Name" name="name"> <br>
 					<input type="text" placeholder="Email" name="email"> <br>
 					<textarea type="text" placeholder="Type your message here.." name="message"></textarea>
-					<input class="submit-button" type="submit" value="submit" onclick="myFunction()">
+					<input class="submit-button" type="submit" value="submit" onclick="mySubmitFunction()">
 						<script>
-							function myFunction() {
+							function mySubmitFunction() {
 							    alert("Hello! This form currently does not submit anywhere.");
 							}
 						</script>
